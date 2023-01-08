@@ -1,0 +1,222 @@
+/* For Reset Css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* For Utility classes */
+
+    .flex{
+        display: flex;
+    }
+
+
+/* For Main Css */
+
+.container{
+    background-color: white;
+  
+    
+   
+
+}
+.topbar{
+   
+    margin: 10px;
+    padding: 15px;
+}
+.allcards-container{
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 40px;
+   
+    cursor: pointer;
+    
+    
+  
+    
+}
+ .allcards-container:hover{
+    box-shadow: 5px 0 10px gray;
+  
+} 
+
+
+
+.pic img{
+    width: 320px;
+    height: 180px;
+    box-shadow:  0 0 5px gray;
+   
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+.cardtext{
+    margin-top: 5px;
+    padding: 15px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow:  0 0 5px gray;
+    text-decoration: none;
+    
+    
+    color: black;
+    
+
+}
+
+.cardtext h2{
+    margin-top: 10px;
+    text-decoration: none;
+    
+    
+}
+.cardtext p{
+    margin-top: 25px;
+    color: grey;
+    text-decoration: none;
+    
+    
+}
+.card-section{
+   
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+.cardarea{
+    
+    width: 1040px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+.details{
+    width: 1040px;
+    margin: auto;
+    box-shadow: 0 0 5px green;
+    border-radius: 20px;
+    
+   
+
+}
+.all-items{
+    margin: 45px;
+    padding: 10px;
+}
+.headers{
+    margin-top: 10px;
+   
+    justify-content: space-between;
+    color: grey;
+    
+    
+}
+
+.head{
+    font-size: 32px;
+    margin-top: 10px;
+}
+.sub-head{
+    font-size: 24px;
+    color: grey;
+}
+.image img{
+    width: 950px;
+    height: 448px;
+    border-radius: 30px;
+}
+.image_ka_text{
+    font-size: 20px;
+    color: grey;
+}
+.para{
+    font-size: 20px;
+    color: grey;
+}
+.fulldetails{
+    flex-direction: column;
+    gap: 25px;
+}
+.sharewith img{
+    width: 20px;
+   display: inline-flex;
+   margin: 0px 20px;
+   padding:  5px 0px;
+   cursor: pointer;
+   
+   
+  
+   
+    
+}
+.sharewith img:hover{
+    box-shadow: 0 0 10px green;
+    border-radius: 70px;
+}
+
+/* Media queries */
+
+/* Media queries for Tablet */
+
+@media screen and (max-width:1060px){
+    .cardarea{
+  
+    width: 700px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+ .details{
+    width: 700px;
+
+ }
+ .image img{
+    width: 100%;
+    height: 50vh;
+    
+ }
+
+
+}
+
+@media screen and (max-width:770px){
+    .cardarea{
+  
+    width: 400px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.details{
+    width: 400px;
+
+ }
+.image img{
+    width: 100%;
+     height: 50%; 
+    
+} 
+.headers p{
+    font-size: 10px;
+}
+.head{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.sub-head{
+    font-size: 18px;
+    color: grey;
+}
+.para{
+    font-size: 15px;
+    color: grey;
+}
+
+
+}

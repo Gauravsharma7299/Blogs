@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- For Facebook  -->
+    <meta property="og:url" content="http//card8.html" />
+<meta property="og:type"  content="article" />
+<meta property="og:title" content="When Great Minds Don’t Think Alike" />
+<meta property="og:description" content="How much does culture influence creative thinking?" />
+<meta property="og:image" content="logo.svg" />
+
+
+<!-- For twitter  -->
+
+<!-- <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+<meta name="twitter:description" content="View the album on Flickr." />
+<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" /> -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <style>
+        .container img{
+            width: 200px;
+            height: 100px;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1> the main title</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio quidem, a excepturi assumenda magni id consequuntur autem deleniti ex cupiditate distinctio ullam natus adipisci qui cum dolores similique, ipsum atque amet? Totam, voluptate. Error amet nam incidunt ipsum eaque quisquam quidem molestias nihil. Neque, quia ea natus nobis sunt id assumenda dignissimos voluptatum odit suscipit, voluptates ratione expedita aperiam cupiditate? Corrupti harum eaque, est, omnis repellat dolores exercitationem necessitatibus voluptate odio rerum reprehenderit officiis dolore tempora odit eligendi sunt ipsam debitis ex. Fugit eius nemo, nobis saepe eveniet, magni cupiditate iure officiis inventore quidem assumenda porro. Temporibus porro, hic, quisquam provident excepturi accusamus aspernatur dolores pariatur placeat adipisci ad deleniti dolorum, non voluptatem! Quis pariatur rerum illum minima maiores, quaerat dolores commodi eveniet inventore voluptate veritatis eius nostrum, nihil corporis possimus ipsa omnis. Libero, magnam. Amet consequuntur ipsam harum reprehenderit quia totam at officiis sequi. Voluptatum ad tempora numquam rem provident assumenda labore magnam quos nesciunt. Nam alias sint libero iste, nisi perferendis perspiciatis pariatur quidem cum et ex molestias deleniti quos velit adipisci blanditiis quas fuga, ducimus quae quisquam error laboriosam quam. Aspernatur mollitia inventore dolore veniam quae vero asperiores eveniet odio natus, repellat, beatae amet voluptatibus eaque!</p>
+    </div>
+    <div class="container">
+        <a href="#" class="whatsapp-btn"><img  src="facebook.svg" alt=""  ></a>
+        
+    </div>
+    <div class="main">
+        <img src="pic.jpg" style="width: 200px; height: 300px;" class="pic-img" alt="">
+    </div>
+</body>
+<script>
+    const whatsappbtn=document.querySelector('.whatsapp-btn');
+    function init(){
+         const blogImg=document.querySelector(".pic-img ");
+
+        let  postUrl= encodeURI(document.location.href);
+        let postTitle= encodeURI("Beauty of technology");
+         let postImg= encodeURI(blogImg.src);
+
+        whatsappbtn.setAttribute("href",`https://api.whatsapp.com/send?text=${postUrl}.${postTitle}.${postImg}`);
+
+    }
+    init();
+    
+    
+</script>
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card -1 Detail</title>
+    <style>
+
+        /* For Reset Css */
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* For Utility classes */
+
+            .flex{
+                display: flex;
+            }
+        
+
+        /* For Main Css */
+
+        .container{
+            background-color: white;
+          
+            
+           
+
+        }
+        .topbar{
+           
+            margin: 10px;
+            padding: 15px;
+        }
+        .allcards-container{
+            flex-direction: column;
+            justify-content: space-evenly;
+            border-radius: 40px;
+           
+            cursor: pointer;
+            
+            
+          
+            
+        }
+         .allcards-container:hover{
+            box-shadow: 5px 0 10px gray;
+          
+        } 
+
+        
+
+        .pic img{
+            width: 320px;
+            height: 180px;
+            box-shadow:  0 0 5px gray;
+           
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+
+        }
+        .cardtext{
+            margin-top: 5px;
+            padding: 15px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow:  0 0 5px gray;
+            text-decoration: none;
+            
+            
+            color: black;
+            
+
+        }
+
+        .cardtext h2{
+            margin-top: 10px;
+            text-decoration: none;
+            
+            
+        }
+        .cardtext p{
+            margin-top: 25px;
+            color: grey;
+            text-decoration: none;
+            
+            
+        }
+        .card-section{
+           
+            justify-content: center;
+            margin-top: 20px;
+          
+        }
+        .cardarea{
+            
+            width: 1040px;
+            margin: auto;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: space-evenly;
+        }
+        .details{
+            width: 1040px;
+            margin: auto;
+            box-shadow: 0 0 5px green;
+            border-radius: 20px;
+            
+           
+
+        }
+        .all-items{
+            margin: 45px;
+            padding: 10px;
+        }
+        .headers{
+            margin-top: 10px;
+           
+            justify-content: space-between;
+            color: grey;
+            
+            
+        }
+
+        .head{
+            font-size: 32px;
+            margin-top: 10px;
+        }
+        .sub-head{
+            font-size: 24px;
+            color: grey;
+        }
+        .image img{
+            width: 950px;
+            height: 448px;
+            border-radius: 30px;
+        }
+        .image_ka_text{
+            font-size: 20px;
+            color: grey;
+        }
+        .para{
+            font-size: 20px;
+            color: grey;
+        }
+        .fulldetails{
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        /* Media queries */
+
+        /* Media queries for Tablet */
+
+        @media screen and (max-width:1060px){
+            .cardarea{
+          
+            width: 700px;
+            margin: auto;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-evenly;
+        }
+         .details{
+            width: 700px;
+
+         }
+         .image img{
+            width: 100%;
+            height: 50vh;
+            
+         }
+        
+
+        }
+
+        @media screen and (max-width:770px){
+            .cardarea{
+          
+            width: 400px;
+            margin: auto;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-evenly;
+        }
+        .details{
+            width: 400px;
+
+         }
+        .image img{
+            width: 100%;
+             height: 50%; 
+            
+        } 
+        .headers p{
+            font-size: 10px;
+        }
+        .head{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .sub-head{
+            font-size: 18px;
+            color: grey;
+        }
+        .para{
+            font-size: 15px;
+            color: grey;
+        }
+
+
+        }
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="topbar">
+            <img src="logo.svg" alt="">
+        </div>
+        <div class="details">
+            <div class="all-items">
+                <div class="headers flex" >
+                   <p>
+                    Monday 23-03-2023
+                   </p>
+                   <p>
+                    Robin albert
+                   </p>
+                </div>
+                <div class="fulldetails flex">
+                    <div class="head">Beauty of technology</div>
+                    <div class="sub-head">
+                        It puts you with the right Person 
+                    </div>
+                    <div class="image">
+                        <img src="pic6.jpg" alt="">
+                    </div>
+                    <div class="image_ka_text">
+                        The Beauty of technology
+                    </div>
+                    <div class="para">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, debitis totam. Pariatur perspiciatis odio quae velit ipsa suscipit ducimus reprehenderit dolore? Provident doloribus ipsam aut debitis porro fugit odit amet impedit iure vitae repellendus repudiandae, at ipsum esse libero enim omnis in id commodi iusto similique error reiciendis. Porro blanditiis consequuntur adipisci saepe, quos doloribus soluta assumenda accusantium at deserunt quod nihil distinctio aperiam delectus commodi, labore laboriosam? Nemo earum unde impedit? Accusamus nihil voluptas esse maxime ipsum ab. Atque illum nesciunt ratione enim voluptatibus facilis doloribus saepe laudantium, sequi nisi explicabo! Maxime fuga blanditiis sapiente vitae magni nihil voluptate, mollitia qui architecto quam nisi corporis soluta similique quod autem quaerat, saepe optio ipsum! Nobis, rem, illum excepturi aliquid consequuntur quibusdam assumenda veritatis iure esse quisquam nisi debitis error aut similique, dolore blanditiis sequi nihil amet! Ducimus, ipsum consectetur! Nesciunt, nemo optio. Veniam illo ratione soluta magnam a debitis pariatur modi ex quos nostrum expedita quae sapiente blanditiis atque porro at voluptatibus, nulla assumenda, sunt ea. Nihil tenetur, explicabo quasi quaerat ut eius perferendis rem necessitatibus libero repellat eum quos minima suscipit molestias sapiente ex fugiat sint. Delectus aut, odio voluptatem, ad quos ea nesciunt eveniet quaerat adipisci fugiat quibusdam cupiditate ut at rem officia quis eos distinctio inventore aliquam molestias asperiores vero. Blanditiis dolorum officia, dolorem omnis harum nobis accusantium ut cupiditate mollitia? Dolor quia itaque earum consequatur culpa, ad magni est incidunt omnis vel minima consequuntur corrupti eveniet cumque harum laudantium quod eos. Dicta iure consequuntur molestias minima atque totam maxime. Adipisci saepe illum rem. Porro officiis perferendis in dicta minus pariatur itaque quam. Magnam at quidem sint provident vero minima itaque similique maxime neque autem ipsam labore totam nostrum, quos voluptatem obcaecati dolor nemo dicta saepe velit explicabo atque aut accusantium. Debitis optio error rerum fugit nesciunt.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-section ">
+
+            <div class="cardarea flex">
+
+                <div class="allcards-container flex" onclick="card1()">
+                    <div class="pic">
+                        <img src="pic.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Beauty of technology</h2>
+                        <p>Monday 1-02-2023</p>
+                    </div>
+                </div>
+                <div class="allcards-container flex" onclick="card2()">
+                    
+                    <div class="pic">
+                        <img src="pic1.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Sparkling the light</h2>
+                        <p>Saturday 21-2-2022</p>
+                    </div>
+                </div>
+           
+                <div class="allcards-container flex" onclick="card3()">
+                    <div class="pic">
+                        <img src="pic2.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Emmerstion of brightness</h2>
+                        <p>Tuesday 03-01-2023</p>
+                    </div>
+                </div>
+                <div class="allcards-container flex" onclick="card4()">
+                    <div class="pic">
+                        <img src="pic3.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Analog Digital Watch</h2>
+                        <p>Wednesday 19-02-2023</p>
+                    </div>
+                </div>
+                <div class="allcards-container flex" onclick="card5()">
+                    <div class="pic">
+                        <img src="pic4.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Best Laptop setup Ever
+                        </h2>
+                        <p>Friday 6-02-2019</p>
+                    </div>
+                </div>
+                <div class="allcards-container flex" onclick="card6()">
+                    
+                    <div class="pic">
+                        <img src="pic5.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Remainder of Calling</h2>
+                        <p>Monday 15-07-2023</p>
+                    </div>
+                </div>
+                <div class="allcards-container flex" onclick="card7()">
+                    <div class="pic">
+                        <img src="pic6.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Noiseless Earphones</h2>
+                        <p>Sunday 15-07-2023</p>
+                    </div>
+                </div>
+                <div class="allcards-container flex" onclick="card8()">
+                    <div class="pic">
+                        <img src="pic7.jpg" alt="">
+                    </div>
+                    <div class="cardtext">
+                        <h2>Artificial AI Robotics </h2>
+                        <p>Monday 28-07-2022</p>
+                    </div>
+                </div>
+                <div class="allcards-container flex" onclick="card9()">
+                    <div class="pic">
+                        <img src="pic8.jpg" alt="">f
+                    </div>
+                    <div class="cardtext">
+                        <h2>Beauty of Love</h2>
+                        <p>Thursday 06-07-2023</p>
+                    </div>
+                </div>
+
+
+            </div>
+            
+           
+
+        </div>
+        
+    </div>
+    
+</body>
+<script>
+    var Card1;
+    var Card2;
+    var Card3;
+    var Card4;
+    var Card5;
+    var Card6;
+    var Card7;
+    var Card8;
+    var blankpage;
+    function card1(){
+        Card1=window.open("card1.html");
+
+    }
+    function card2(){
+        Card2=window.open("card2.html");
+
+    }
+    function card3(){
+        Card3=window.open("card3.html");
+
+    }
+    function card4(){
+        Card4=window.open("card4.html");
+
+    }
+    function card5(){
+        Card5=window.open("card5.html");
+
+    }
+    function card6(){
+        Card6=window.open("card6.html");
+
+    }
+    function card7(){
+        Card7=window.open("card7.html");
+
+    }
+    function card8(){
+        Card8=window.open("card8.html");
+
+    }
+    function card9(){
+        Card9=window.open("card9.html");
+
+    }
+    
+</script>
+</html>
